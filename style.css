@@ -1,56 +1,48 @@
 * {
-  padding: 0;
-  box-sizing: border-box;
-  margin: 0;
-  font-family: initial;
-
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: initial;
 }
-
+                   /* background */
 body {
-  background-color: rgba(19, 15, 15, 0.39);
+    background-color: rgba(255, 166, 0, 0.436);
 }
-
+                      /* Box */
 .corpo1 {
-  display: flex;
-  margin: 30% 10%;
-  box-shadow: 10px 10px rgba(19, 15, 15, 0.39);
-  border-radius: 30px;
-  background-color: white;
-  align-items: center;
+    display: flex;
+    margin: 17% 10%;
+    box-shadow: -10px -10px 10px rgba(19, 15, 15, 0.39);
+    border-radius: 30px;
+    background-color: white;
+    align-items: center;
 }
-
+                       /* img */
 .corpo1 img {
-  width: 35%;
-  margin-left: 2%;
-  border-radius: 20px;
+    width: 40%;
+    margin-left: 2%;
+    border-radius: 50px;
 }
-.corpo1 .text {
-  text-align: center;
+                       /* Texto */
+.corpo1 h1 {
+    padding-left: 10%;
+    font-size: 250%;
+    
 }
-.corpo1 .text h1{
-  padding: 15px;
-  font-size: x-large;
+.corpo1 .text p{
+   margin: 6%;
 }
-
-.corpo1 .text p {
-  margin: 6%;
-  width: 40%;
-  margin-left: 30%;
+                       /* Buttom */
+.corpo1 .text a{
+    margin-left: 5%;
 }
-
-.corpo1 .text a {
-  margin-left: 5%;
-
+.corpo1 .text a button{
+    width: 30%;
+    height: 7%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    border: none;
 }
-
-.corpo1 .text a button {
-  width: 30%;
-  height: 7%;
-  margin-bottom: 10%;
-  border: none;
-  border-radius: 20px;
-}
-
 a button:hover {
-  background-color: rgba(243, 219, 0, 0.581);
+    background-color: rgba(0, 32, 194, 0.451);
 }
