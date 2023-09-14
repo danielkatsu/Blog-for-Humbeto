@@ -3,22 +3,24 @@
     box-sizing: border-box;
     margin: 0;
     font-family: initial;
-   
 }
 body {
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(255, 234, 0, 0.346);
 }
 .corpo1 {
     display: flex;
-    margin: 30% 10%;
-    box-shadow: 10px 10px rgba(19, 15, 15, 0.39);
+    margin: 15% 10%;
+    box-shadow: -10px -10px 10px rgba(19, 15, 15, 0.39);
     border-radius: 30px;
-    background-color: aliceblue;
+    background-color: white;
+    align-items: center;
 }
 
 .corpo1 img {
     width: 30%;
     border-radius: 20px;
+    margin-left: 2%;
+
 }
 .corpo1 h1 {
     padding-left: 10%;
@@ -31,25 +33,20 @@ body {
 .corpo1 .text{
     display: block;
      width: 60%;
-     text-align: center;
 }
 .corpo1 .text p{
    margin: 6%;
-   width: 45%;
-   margin-left: 30%;
-   
 }
 .corpo1 .text a{
-
+    margin-left: 5%;
 }
 .corpo1 .text a button{
     width: 20%;
     height: 7%;
-    background-color: rgba(199, 197, 191, 0.671);
-     border: none;
-     border-radius: 20px;
-     margin-bottom: 20px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    border: none;
 }
 a button:hover {
-    background-color: orange;
+    background-color:  rgba(0, 32, 194, 0.451);
 }
